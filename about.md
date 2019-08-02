@@ -6,7 +6,7 @@ weight : 6
 ---
 ### To be completed ...
 
-<!---
+
 ### About me
 ![Trip to Machu Picchu](/images/11_Machu_Picchu.jpg){:style="float: right;margin-right: 7px;margin-top: 7px;width: 40%"}
 
@@ -27,4 +27,3 @@ Apart from doing work in astrophysics, I also enjoy traveling and being outdoor.
 [<img src="/images/14_venice.jpg" style="float: left; width: 45%; margin-right: 1%; margin-bottom: 0.5em;">](/images/14_venice.jpg)
 <p style="clear: both;"></p>
 
--->
