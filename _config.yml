@@ -8,7 +8,7 @@
 # Site settings
 title: Shi Li
 email: shili@mit.edu
-description: "I practice my saxophone three hours a day. I’m not saying I’m particularly special, but if you do something three hours a day for forty years, you get pretty good at it." -- Kenny G
+description: "I  practice my saxophone three hours a day. I’m not saying I’m particularly special, but if you do something three hours a day for forty years, you get pretty good at it." -- Kenny G
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://LinkRogers.github.io/" # the base hostname & protocol for your site
 github_username:  LinkRogers
