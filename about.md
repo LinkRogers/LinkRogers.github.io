@@ -1,6 +1,6 @@
 ---
 layout: page
-title : Yunjie Yang - About Me
+title : Shi Li - About Me
 permalink: /about/
 weight : 6
 ---
