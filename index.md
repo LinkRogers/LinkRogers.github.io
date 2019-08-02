@@ -6,7 +6,7 @@ title : Shi Li's Personal Homepage
 ---
 
 <figure><center>
-  <img width="200" src="/pics/profile.JPG"/>
+  <img width="200" src="/pics/profile.jpg"/>
   <figcaption>Me with Soprano Saxphone</figcaption>
 </center></figure>
 
