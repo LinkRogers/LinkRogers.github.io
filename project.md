@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Yunjie Yang - Random Things
+title: Shi Li - Random Things
 permalink: /project/
 category: "project"
 weight : 3
@@ -10,8 +10,6 @@ weight : 3
 - [Time lag between the experimental discovery and the conferral of the prize](/random_things/blog_exp-award.html)
 - [Breakdown by laureates' country](/random_things/blog_byCountry.html)
 
-
-<!---
 ## My Data Visualization Projects
 - [Jupyter notebook showing about MIT Astrophysics Alunmi in terms of their careers (current upto 2013)](http://nbviewer.jupyter.org/github/leogulus/Datavisualization/blob/master/mit_alumni/mit_alumni.ipynb?flush_cache=true)
 - [Diagram showing money providede by various funding agencies in the US in 2013 to the top 100 universities](/extra_webpage/funding1.html)
@@ -29,4 +27,3 @@ weight : 3
 ## My Blog
 - **[My Blog](http://leogulus-champ.blogspot.com/)** \\
   My personal blog is where I posted mostly about my travel experience, my academic experience with talks and previous conferences, and other non-academic interests like data visualization and geographic information system (GIS).
--->
