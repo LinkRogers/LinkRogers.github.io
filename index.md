@@ -14,23 +14,22 @@ title : Shi Li's Personal Homepage
         <figcaption>Me with Soprano Saxphone</figcaption>
       </figure>
       <div class="cyber-intro">
-        <h2>Shi Li / Cyber-Mechanical Engineer</h2>
+        <h2>Shi Li / Senior AI Scientist</h2>
         <p>
-          I am Shi Li from University of Michigan, studying as a Mechanical Engineer with a MS degree.
-          I have been actively doing computer vision research at the UM &amp; Ford Center for Autonomous
-          Vehicles (FCAV). My research work includes: Velodyne Lidar scan pattern simulation, 3D image
-          segmentation and RGB-D image detection. I am targeting opportunities to work on Autonomous
-          Vehicle and Driver Assistance systems related technologies.
+          Signal update: I am a Senior AI Scientist at Bosch, engineering GenAI systems that rewire SAP-era business
+          processes for intelligent automation and decision-grade insights. I build next-gen AI pipelines that turn
+          enterprise data into faster decisions and smarter operations.
         </p>
         <p>
-          I believe I can not only apply the knowledge I learned from school to the industry world but
-          also come up with creative and novel solutions that will bring the customers even better experience.
+          My focus: AI-driven efficiency, enterprise intelligence, and pragmatic innovation. I design solutions that
+          are scalable, secure, and ready for production—so businesses can move faster in a digital-first world.
         </p>
         <div class="cyber-tags">
-          <span>Computer Vision</span>
-          <span>Autonomous Systems</span>
-          <span>3D Perception</span>
-          <span>RGB-D Detection</span>
+          <span>GenAI</span>
+          <span>SAP Automation</span>
+          <span>Enterprise Intelligence</span>
+          <span>Decision Systems</span>
+          <span>AI Ops</span>
         </div>
       </div>
     </div>
@@ -39,7 +38,7 @@ title : Shi Li's Personal Homepage
   <section class="cyber-contact">
     <div class="cyber-contact-card">
       <div class="cyber-contact-label">CONTACT</div>
-      <div class="cyber-contact-value">shili at saicmotor.com</div>
+      <div class="cyber-contact-value">shili at bosch.com</div>
     </div>
   </section>
 </div>

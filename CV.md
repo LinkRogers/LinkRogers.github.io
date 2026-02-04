@@ -5,7 +5,29 @@ layout: page
 weight : 6
 #tagline: last edit 11/15/2018
 ---
-### To be completed ...
+### Professional Summary
+
+Senior AI Scientist at Bosch specializing in GenAI solutions for SAP-era enterprise transformation. I design
+AI-driven automation and decision systems that unlock operational efficiency, business intelligence, and innovation
+at scale.
+
+### Experience
+
+**Senior AI Scientist** — Bosch (China) Investment Ltd.  
+*Mar 2025 – Present · Shanghai, China · On-site*  
+- Build GenAI workflows that modernize SAP business processes with intelligent automation and decision-grade insights.
+- Deliver production-ready AI systems that boost enterprise efficiency and innovation velocity.
+
+**Senior Computer Vision Engineer - CV** — 博世汽车部件（苏州）有限公司  
+*Sep 2020 – Feb 2025 · Pudong, Shanghai, China · On-site*  
+- Led agile development for computer vision systems used in production environments.
+- Built and deployed PyTorch-based models for real-world perception workloads.
+
+**Software Engineer** — SAIC Motor Technical Center  
+*Apr 2018 – Sep 2020 · Shanghai, China*  
+- Maintained FOTA software following ASPICE (ENG4–ENG8) for secure remote ECU reflashing.
+- Owned requirements analysis and detailed design for OTA signal changes and vehicle control unit updates.
+- Delivered virtual dashboard features, including IVDS data transfer and production bench testing.
 
 <!---
 MIT Kavli Institute, Massachusetts Institute of Technology\\
