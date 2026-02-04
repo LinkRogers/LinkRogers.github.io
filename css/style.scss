@@ -71,13 +71,20 @@ dl, dd, ol, ul, figure {
 body {
     font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
     color: $text-color;
-    background-color: $background-color;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    background-attachment: fixed;
     -webkit-text-size-adjust: 100%;
     -webkit-font-feature-settings: "kern" 1;
     -moz-font-feature-settings: "kern" 1;
     -o-font-feature-settings: "kern" 1;
     font-feature-settings: "kern" 1;
     font-kerning: normal;
+    animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
 }
 
 
@@ -100,6 +107,12 @@ ul, ol, dl, figure,
 img {
     max-width: 80%;
     vertical-align: middle;
+    transition: all 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.05) rotate(2deg);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
 }
 
 
@@ -148,26 +161,29 @@ h1, h2, h3, h4, h5, h6 {
 a {
     color: #23238E !important;
     text-decoration: none;
+    transition: all 0.3s ease;
+    position: relative;
 
     &:visited {
         color: darken($brand-color, 15%);
     }
 
     &:hover {
-        color: #23238E !important;
-        border-bottom: 1px dotted black ;
+        color: #4040ff !important;
+        border-bottom: 2px solid #4040ff;
+        transform: translateY(-2px);
     }
 
     &.page-link{
       &:hover {
           color: $text-color;
-          border-bottom: 1px dotted black ;
+          border-bottom: 2px solid black;
+          transform: translateY(-2px);
       }
     }
     &.postLink{
       color: black !important;
       &:hover {
-
           border-bottom: 1px dotted black ;
       }
 
@@ -251,6 +267,14 @@ pre {
     margin-left: auto;
     padding-right: $spacing-unit;
     padding-left: $spacing-unit;
+    background: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     @extend %clearfix;
 
     @include media-query($on-laptop) {
@@ -383,9 +407,23 @@ pre {
   text-transform: capitalize;
   font-weight: 500;
   margin-top: 1.0em;
+  background: linear-gradient(45deg, #667eea 0%, #764ba2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: titleGlow 3s ease-in-out infinite alternate;
   &,
   &:visited {
     color: $grey-color-dark;
+  }
+}
+
+@keyframes titleGlow {
+  from {
+    filter: drop-shadow(0 0 5px rgba(102, 126, 234, 0.5));
+  }
+  to {
+    filter: drop-shadow(0 0 20px rgba(118, 75, 162, 0.8));
   }
 }
 .site-description {
@@ -679,4 +717,70 @@ pre {
     .vg    { color: #008080 } // Name.Variable.Global
     .vi    { color: #008080 } // Name.Variable.Instance
     .il    { color: #099 } // Literal.Number.Integer.Long
+}
+
+/* Additional cool effects */
+figure img {
+    border-radius: 50%;
+    border: 5px solid transparent;
+    background: linear-gradient(white, white) padding-box,
+                linear-gradient(45deg, #667eea, #764ba2) border-box;
+    box-shadow: 0 10px 40px rgba(102, 126, 234, 0.3);
+}
+
+figcaption {
+    margin-top: 15px;
+    font-weight: 500;
+    color: #667eea;
+}
+
+.post-content {
+    animation: slideIn 0.8s ease-out;
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+center b {
+    font-size: 24px;
+    background: linear-gradient(45deg, #667eea, #764ba2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: 700;
+}
+
+.site-navigation a {
+    position: relative;
+    overflow: hidden;
+}
+
+.site-navigation a::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(45deg, #667eea, #764ba2);
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+}
+
+.site-navigation a:hover::before {
+    transform: translateX(0);
+}
+
+.site-description {
+    font-style: italic;
+    color: #555;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
