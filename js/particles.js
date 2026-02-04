@@ -60,8 +60,11 @@
             particle.update();
             particle.draw();
 
-            // Draw connections
-            particles.slice(i + 1).forEach(otherParticle => {
+            // Draw connections - limit to next 5 particles only to reduce O(n²) complexity
+            const maxConnections = 5;
+            const particlesToCheck = particles.slice(i + 1, i + 1 + maxConnections);
+            
+            particlesToCheck.forEach(otherParticle => {
                 const dx = particle.x - otherParticle.x;
                 const dy = particle.y - otherParticle.y;
                 const distance = Math.sqrt(dx * dx + dy * dy);

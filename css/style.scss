@@ -268,6 +268,7 @@ pre {
     padding-right: $spacing-unit;
     padding-left: $spacing-unit;
     background: rgba(255, 255, 255, 0.9);
+    -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
     border-radius: 15px;
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
@@ -407,11 +408,17 @@ pre {
   text-transform: capitalize;
   font-weight: 500;
   margin-top: 1.0em;
+  color: $grey-color-dark;
   background: linear-gradient(45deg, #667eea 0%, #764ba2 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
   animation: titleGlow 3s ease-in-out infinite alternate;
+  
+  @supports not (background-clip: text) {
+    color: #667eea;
+  }
+  
   &,
   &:visited {
     color: $grey-color-dark;
@@ -751,11 +758,16 @@ figcaption {
 
 center b {
     font-size: 24px;
+    color: #667eea;
     background: linear-gradient(45deg, #667eea, #764ba2);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
     font-weight: 700;
+    
+    @supports not (background-clip: text) {
+        color: #667eea;
+    }
 }
 
 .site-navigation a {
