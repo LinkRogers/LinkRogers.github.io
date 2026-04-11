@@ -161,7 +161,7 @@ title : Shi Li's Personal Homepage
   <section class="cyber-contact" id="cyber-contact">
     <div class="cyber-contact-card">
       <div class="cyber-contact-label">// ESTABLISH LINK</div>
-      <div class="cyber-contact-value">shili <span>at</span> bosch.com</div>
+      <div class="cyber-contact-value">shi.li2 <span>at</span> cn.bosch.com</div>
       <div class="cyber-contact-hint">Shanghai, China · open to collaborations on applied GenAI</div>
     </div>
   </section>

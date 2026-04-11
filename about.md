@@ -47,5 +47,5 @@ at it."* I try to bring the same patience to both craft and code.
 
 ### Reach me
 
-- Email: `shili at bosch.com`
+- Email: `shi.li2 at cn.bosch.com`
 - Location: Shanghai, China
