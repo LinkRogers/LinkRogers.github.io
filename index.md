@@ -16,7 +16,6 @@ title : Shi Li's Personal Homepage
         </div>
         <h1 class="cyber-name">
           Shi Li
-          <span class="cyber-name-zh">李实</span>
         </h1>
         <div class="cyber-role">
           <span class="cyber-role-caret">&gt;</span> Senior AI Scientist <span class="cyber-cursor">_</span>
